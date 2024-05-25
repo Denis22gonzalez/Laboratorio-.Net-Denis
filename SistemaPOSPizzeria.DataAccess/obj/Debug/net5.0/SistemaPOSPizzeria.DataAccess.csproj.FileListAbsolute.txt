@@ -1,0 +1,15 @@
+C:\Users\dell 3020\Documents\GitHub\Laboratorio-.Net-Denis\SistemaPOSPizzeria.DataAccess\bin\Debug\net5.0\SistemaPOSPizzeria.DataAccess.deps.json
+C:\Users\dell 3020\Documents\GitHub\Laboratorio-.Net-Denis\SistemaPOSPizzeria.DataAccess\bin\Debug\net5.0\SistemaPOSPizzeria.DataAccess.runtimeconfig.json
+C:\Users\dell 3020\Documents\GitHub\Laboratorio-.Net-Denis\SistemaPOSPizzeria.DataAccess\bin\Debug\net5.0\SistemaPOSPizzeria.DataAccess.runtimeconfig.dev.json
+C:\Users\dell 3020\Documents\GitHub\Laboratorio-.Net-Denis\SistemaPOSPizzeria.DataAccess\bin\Debug\net5.0\SistemaPOSPizzeria.DataAccess.dll
+C:\Users\dell 3020\Documents\GitHub\Laboratorio-.Net-Denis\SistemaPOSPizzeria.DataAccess\bin\Debug\net5.0\ref\SistemaPOSPizzeria.DataAccess.dll
+C:\Users\dell 3020\Documents\GitHub\Laboratorio-.Net-Denis\SistemaPOSPizzeria.DataAccess\bin\Debug\net5.0\SistemaPOSPizzeria.DataAccess.pdb
+C:\Users\dell 3020\Documents\GitHub\Laboratorio-.Net-Denis\SistemaPOSPizzeria.DataAccess\obj\Debug\net5.0\SistemaPOSPizzeria.DataAccess.csproj.AssemblyReference.cache
+C:\Users\dell 3020\Documents\GitHub\Laboratorio-.Net-Denis\SistemaPOSPizzeria.DataAccess\obj\Debug\net5.0\SistemaPOSPizzeria.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell 3020\Documents\GitHub\Laboratorio-.Net-Denis\SistemaPOSPizzeria.DataAccess\obj\Debug\net5.0\SistemaPOSPizzeria.DataAccess.AssemblyInfoInputs.cache
+C:\Users\dell 3020\Documents\GitHub\Laboratorio-.Net-Denis\SistemaPOSPizzeria.DataAccess\obj\Debug\net5.0\SistemaPOSPizzeria.DataAccess.AssemblyInfo.cs
+C:\Users\dell 3020\Documents\GitHub\Laboratorio-.Net-Denis\SistemaPOSPizzeria.DataAccess\obj\Debug\net5.0\SistemaPOSPizzeria.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\dell 3020\Documents\GitHub\Laboratorio-.Net-Denis\SistemaPOSPizzeria.DataAccess\obj\Debug\net5.0\SistemaPOSPizzeria.DataAccess.dll
+C:\Users\dell 3020\Documents\GitHub\Laboratorio-.Net-Denis\SistemaPOSPizzeria.DataAccess\obj\Debug\net5.0\ref\SistemaPOSPizzeria.DataAccess.dll
+C:\Users\dell 3020\Documents\GitHub\Laboratorio-.Net-Denis\SistemaPOSPizzeria.DataAccess\obj\Debug\net5.0\SistemaPOSPizzeria.DataAccess.pdb
+C:\Users\dell 3020\Documents\GitHub\Laboratorio-.Net-Denis\SistemaPOSPizzeria.DataAccess\obj\Debug\net5.0\SistemaPOSPizzeria.DataAccess.genruntimeconfig.cache

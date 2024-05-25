@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "hAn5jDCn5+Z2ZnedRKfncgEsyK3IQGIq2yLkBgik3T/uzoNuQtGQBbDf0gMGqL5Kh7Z/NG/6EgVHzwfypSetTw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dell 3020\\Documents\\GitHub\\Laboratorio-.Net-Denis\\SistemaPOSPizzeria.API\\SistemaPOSPizzeria.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dell 3020\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\dell 3020\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\dell 3020\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\dell 3020\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\dell 3020\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\dell 3020\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

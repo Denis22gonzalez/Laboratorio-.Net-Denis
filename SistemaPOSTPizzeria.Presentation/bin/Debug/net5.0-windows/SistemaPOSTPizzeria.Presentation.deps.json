@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "SistemaPOSTPizzeria.Presentation/1.0.0": {
+        "runtime": {
+          "SistemaPOSTPizzeria.Presentation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SistemaPOSTPizzeria.Presentation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
