@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SistemaPOSPizzeria.DataAccess.Models
 {
-    class CabeceraDetalle
+   public class CabeceraDetalle
     {
         public int PedidoDetalleId { get; set; }
         public int? PedidoId { get; set; }

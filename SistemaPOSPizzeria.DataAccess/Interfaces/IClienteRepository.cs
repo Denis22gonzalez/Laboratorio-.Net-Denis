@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SistemaPOSPizzeria.DataAccess.Interfaces
 {
-    interface IClienteRepository
+    public interface IClienteRepository
     {
         /// <summary>
         /// Método que devuelve una lista de todos los registros de la tabla cliente.
@@ -18,7 +18,7 @@ namespace SistemaPOSPizzeria.DataAccess.Interfaces
         /// Caso de error:
         /// Retorna un listado vacío.
         /// </returns>
-        public IEnumerable<TbCliente> ClientesList();
+        public IEnumerable<Cliente> ClientesList();
 
         /// <summary>
         /// Método que nos permite crear un nuevo registro en la tabla productos.
@@ -30,7 +30,7 @@ namespace SistemaPOSPizzeria.DataAccess.Interfaces
         /// Caso de error:
         /// Retorna un entero con valor de -1.
         /// </returns>
-        public int Insert(TbCliente model);
+        public int Insert(Cliente model);
 
         /// <summary>
         /// Método que nos permite actualizar un registro en la tabla cliente.
@@ -42,7 +42,7 @@ namespace SistemaPOSPizzeria.DataAccess.Interfaces
         /// Caso de error:
         /// Retorna un entero con valor de -1.
         /// </returns>
-        public int Update(TbCliente model);
+        public int Update(Cliente model);
 
 
         /// <summary>

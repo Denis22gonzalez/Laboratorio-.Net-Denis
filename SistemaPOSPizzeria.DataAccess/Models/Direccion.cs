@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace SistemaPOSPizzeria.DataAccess.Models
 {
-    class Direccion
+   public class Direccion
     {
-        public int ClienteDireccionId { get; set; }
-        public int? ClienteId { get; set; }
-        public string ClienteDireccionDescripcion { get; set; }
+        public int Cliente_Direccion_Id { get; set; }
+        public int? Cliente_Id { get; set; }
+        public string Cliente_Direccion_Descripcion { get; set; }
 
-        public virtual Cliente Cliente { get; set; }
+        //public virtual Cliente Cliente { get; set; }
     }
 }

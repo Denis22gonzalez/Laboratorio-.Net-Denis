@@ -25,6 +25,13 @@ namespace SistemaPOSPizzeria.DataAccess.Models
         public virtual DbSet<TbProducto> TbProductos { get; set; }
         public virtual DbSet<TbUsuario> TbUsuarios { get; set; }
 
+        //Se expande el dbcontext con las nuevas entidades
+        public virtual DbSet<Cliente> Clientes { get; set; }
+        public virtual DbSet<Direccion> Direcciones { get; set; }
+        public virtual DbSet<Pedido> Pedidos { get; set; }
+        public virtual DbSet<CabeceraDetalle> CabeceraDetalles { get; set; }
+        public virtual DbSet<Producto> Productos { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -207,8 +214,23 @@ namespace SistemaPOSPizzeria.DataAccess.Models
                     .HasColumnName("Usuario_Password");
             });
 
+            //nuevos modelos
+            modelBuilder.Entity<Pedido>()
+      .HasKey(e => e.pedido_Id);
+            modelBuilder.Entity<Cliente>()
+      .HasKey(e => e.Cliente_Id);
+
+
+            modelBuilder.Entity<Direccion>()
+       .HasKey(e=> e.Cliente_Direccion_Id);
+            modelBuilder.Entity<CabeceraDetalle>()
+        .HasKey(e => e.PedidoDetalleId);
+            modelBuilder.Entity<Producto>()
+      .HasKey(e => e.Producto_Id);
+
             OnModelCreatingPartial(modelBuilder);
         }
+
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }

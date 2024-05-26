@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SistemaPOSPizzeria.DataAccess.Interfaces
 {
-    interface IPedidoDetalle
+    interface IPedidoDetalleRepository
     {
         /// <summary>
         /// Método que devuelve una lista de todos los registros de la tabla pedido detalle.
@@ -18,7 +18,7 @@ namespace SistemaPOSPizzeria.DataAccess.Interfaces
         /// Caso de error:
         /// Retorna un listado vacío.
         /// </returns>
-        public IEnumerable<TbPedidosDetalle> PedidosList();
+        public IEnumerable<CabeceraDetalle> PedidosDetallesList();
 
         /// <summary>
         /// Método que nos permite crear un nuevo registro en la tabla pedido detalle.
@@ -30,7 +30,7 @@ namespace SistemaPOSPizzeria.DataAccess.Interfaces
         /// Caso de error:
         /// Retorna un entero con valor de -1.
         /// </returns>
-        public int Insert(TbPedidosDetalle model);
+        public int Insert(CabeceraDetalle model);
 
         /// <summary>
         /// Método que nos permite actualizar un registro en la tabla pedido detalle.
@@ -42,7 +42,7 @@ namespace SistemaPOSPizzeria.DataAccess.Interfaces
         /// Caso de error:
         /// Retorna un entero con valor de -1.
         /// </returns>
-        public int Update(TbPedidosDetalle model);
+        public int Update(CabeceraDetalle model);
 
 
         /// <summary>

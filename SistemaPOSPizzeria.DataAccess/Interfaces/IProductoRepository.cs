@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SistemaPOSPizzeria.DataAccess.Interfaces
 {
-    interface IProductoRepository
+  public  interface IProductoRepository
     {
         /// <summary>
         /// Método que devuelve una lista de todos los registros de la tabla productos.
@@ -18,7 +18,7 @@ namespace SistemaPOSPizzeria.DataAccess.Interfaces
         /// Caso de error:
         /// Retorna un listado vacío.
         /// </returns>
-        public IEnumerable<TbProducto> ProductosList();
+        public IEnumerable<Producto> ProductosList();
 
         /// <summary>
         /// Método que nos permite crear un nuevo registro en la tabla productos.
@@ -30,7 +30,7 @@ namespace SistemaPOSPizzeria.DataAccess.Interfaces
         /// Caso de error:
         /// Retorna un entero con valor de -1.
         /// </returns>
-        public int Insert(TbProducto model);
+        public int Insert(Producto model);
 
         /// <summary>
         /// Método que nos permite actualizar un registro en la tabla productos.
@@ -42,7 +42,7 @@ namespace SistemaPOSPizzeria.DataAccess.Interfaces
         /// Caso de error:
         /// Retorna un entero con valor de -1.
         /// </returns>
-        public int Update(TbProducto model);
+        public int Update(Producto model);
 
         /// <summary>
         /// Método que nos permite eliminar un registro en la tabla productos.

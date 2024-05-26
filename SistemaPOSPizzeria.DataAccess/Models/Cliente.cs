@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace SistemaPOSPizzeria.DataAccess.Models
 {
-    class Cliente
+   public class Cliente
     {
         public Cliente()
         {
-            Direcciones = new HashSet<Direccion>();
-            TbPedidos = new HashSet<TbPedido>();
+            //Direcciones = new HashSet<Direccion>();
+            //Pedidos = new HashSet<Pedido>();
         }
 
-        public int ClienteId { get; set; }
-        public string ClienteNombre { get; set; }
-        public string ClienteApellido { get; set; }
-        public string ClienteCorreo { get; set; }
-        public string ClienteTelefono { get; set; }
+        public int Cliente_Id { get; set; }
+        public string Cliente_Nombre { get; set; }
+        public string Cliente_Apellido { get; set; }
+        public string Cliente_Correo { get; set; }
+        public string Cliente_Telefono { get; set; }
 
-        public virtual ICollection<Direccion> Direcciones { get; set; }
-        public virtual ICollection<TbPedido> TbPedidos { get; set; }
+        //public virtual ICollection<Direccion> Direcciones { get; set; }
+        //public virtual ICollection<Pedido> Pedidos { get; set; }
     }
 }
