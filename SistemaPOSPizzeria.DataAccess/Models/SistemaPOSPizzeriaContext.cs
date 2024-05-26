@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using SistemaPOSPizzeria.DataAccess.Helper;
 
 #nullable disable
 
@@ -31,6 +32,8 @@ namespace SistemaPOSPizzeria.DataAccess.Models
         public virtual DbSet<Pedido> Pedidos { get; set; }
         public virtual DbSet<CabeceraDetalle> CabeceraDetalles { get; set; }
         public virtual DbSet<Producto> Productos { get; set; }
+        public virtual DbSet<Usuario> Usuarios { get; set; }
+        public virtual DbSet<UserResponseAuth> UsuarioResponse { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -224,9 +227,14 @@ namespace SistemaPOSPizzeria.DataAccess.Models
             modelBuilder.Entity<Direccion>()
        .HasKey(e=> e.Cliente_Direccion_Id);
             modelBuilder.Entity<CabeceraDetalle>()
-        .HasKey(e => e.PedidoDetalleId);
+        .HasKey(e => e.pedido_detalle_id);
             modelBuilder.Entity<Producto>()
       .HasKey(e => e.Producto_Id);
+
+            modelBuilder.Entity<UserResponseAuth>()
+    .HasKey(e => e.Code);
+            modelBuilder.Entity<Usuario>()
+    .HasKey(e => e.UsuarioId);
 
             OnModelCreatingPartial(modelBuilder);
         }

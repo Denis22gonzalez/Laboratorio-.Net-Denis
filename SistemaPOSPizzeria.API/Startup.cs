@@ -61,8 +61,10 @@ namespace SistemaPOSPizzeria.API
             services.AddScoped<IClienteRepository, ClienteRepository>();
             services.AddScoped<IClienteDireccionRepository, ClienteDireccionRepository>();
             services.AddScoped<IPedidoRepository, PedidoRepository>();
+            services.AddScoped<IPedidoDetalleRepository, PedidoDetalleRepository>();
             services.AddScoped<IProductoRepository, ProductoRepository>();
-           
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

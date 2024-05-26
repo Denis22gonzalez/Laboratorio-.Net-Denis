@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SistemaPOSPizzeria.DataAccess.Interfaces
 {
-    interface IPedidoDetalleRepository
+    public interface IPedidoDetalleRepository
     {
         /// <summary>
         /// Método que devuelve una lista de todos los registros de la tabla pedido detalle.
@@ -18,7 +18,7 @@ namespace SistemaPOSPizzeria.DataAccess.Interfaces
         /// Caso de error:
         /// Retorna un listado vacío.
         /// </returns>
-        public IEnumerable<CabeceraDetalle> PedidosDetallesList();
+        public IEnumerable<CabeceraDetalle> PedidosDetallesList(int pedido);
 
         /// <summary>
         /// Método que nos permite crear un nuevo registro en la tabla pedido detalle.
