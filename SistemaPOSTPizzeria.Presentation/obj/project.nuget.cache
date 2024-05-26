@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JhZ7KFh77L4dEGSVHxUT890y6Wtr9QqSloAaCKnbDPDV3T0YWbsQN97v4xX3N2pNWNlRlav8TL3sO1SLpjlieQ==",
+  "dgSpecHash": "6Zy4c5qRn8wDmY97/HpFGxY71VaDGFdMqypNRDyKIm4fpHg9XvVLvQDnhvzu3J4uXkdBF0SF4w14c4huBPjtZg==",
   "success": true,
   "projectFilePath": "C:\\Users\\dell 3020\\Documents\\GitHub\\Laboratorio-.Net-Denis\\SistemaPOSTPizzeria.Presentation\\SistemaPOSTPizzeria.Presentation.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dell 3020\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
